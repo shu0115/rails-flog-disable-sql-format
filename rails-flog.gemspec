@@ -6,11 +6,11 @@ require 'flog/version'
 Gem::Specification.new do |spec|
   spec.name          = "rails-flog"
   spec.version       = Flog::VERSION
-  spec.authors       = ["pinzolo"]
-  spec.email         = ["pinzolo@gmail.com"]
+  spec.authors       = ["shu0115"]
+  spec.email         = ["s.matsumoto0115@gmail.com"]
   spec.description   = %q{This formats parameters and sql in rails log.}
   spec.summary       = %q{Rails log formatter for parameters and sql}
-  spec.homepage      = "https://github.com/pinzolo/rails-flog"
+  spec.homepage      = "https://github.com/shu0115/rails-flog-disable-sql-format"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
