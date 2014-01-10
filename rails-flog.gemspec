@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'flog/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "rails-flog"
+  spec.name          = "rails-flog-disable-sql-format"
   spec.version       = Flog::VERSION
   spec.authors       = ["shu0115"]
   spec.email         = ["s.matsumoto0115@gmail.com"]
